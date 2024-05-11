@@ -68,3 +68,42 @@
 }
 
 /* End Banner Section */
+
+/* start about us section */
+
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-us-container button{
+    padding: 20px 30px;
+    border-radius:5px;
+}
+.about-us-container button:hover{
+    background-color: black;
+    color: white;
+}
+.about-us-title{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.about-us-text h2{
+    font-size: 30px;
+}
+.about-us-text p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us-imgtag{
+    width:350px;
+}
+
+/* about us section end */
+
+/* our service start */
+
