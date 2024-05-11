@@ -107,3 +107,65 @@
 
 /* our service start */
 
+.service-sec{
+    height: 120vh;
+    background-image: url('../images/background.png'),
+    linear-gradient(45deg, #393838,#393838);
+    color: white;
+    margin: 50px 0px;
+    align-items:center ;
+
+}
+
+.our-services-title{
+    font-size: 55px;
+    text-align: center;
+    padding: 100px 0px;
+    margin-bottom: -50px;
+}
+.our-services-container{
+    margin: 50px 0px;
+   
+}
+.service-box{
+    width: 230px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 4px  2px 105px gray;
+    background-color: black;
+    padding: 55px;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.our-services-container{
+    display: flex;
+    justify-content: space-around;
+}
+.srbtn{
+    background-color: grey;
+}
+.icon{
+    width:80px;
+}
+.service-box-title{
+    margin-bottom:15px;
+    font-size: 30px;
+}
+.service-box-description{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+/* End - Our Service */
+
+/* Start Footer */
+.footer-container{
+    background-color: black;
+    color: white;
+    align-items:center ;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    height:50vh;
+    margin-top:-50px;
+}
