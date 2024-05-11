@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* Start - Navbar Styles */
 .menu_container{
     background-color: rgb(22, 21, 21);
     display:flex;
@@ -20,10 +21,50 @@
     font-size: 20px;
 }
 .menu li:hover{
-    color: aquamarine;
+    color: red;
     cursor: pointer;
 }
 
 .logo-pic{
     width: 200px;
 }
+/* End - Navbar Styles */
+
+/* Start Banner STyles */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 180px;
+    height: 70vh;
+    align-items: center;
+    background-image: url('../images/background.png'),
+    linear-gradient(45deg, #393838,#161515);
+    color: white;
+}
+.banner-image{
+    width: 400px;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    color: white;
+}
+.btn:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* End Banner Section */
